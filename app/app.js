@@ -7,6 +7,7 @@
           controller: 'listsCtrl',
           templateUrl: 'app/views/list.html'
         })
+        .otherwise({ redirectTo: '/' });
 
       });
 

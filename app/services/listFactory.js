@@ -2,7 +2,7 @@
   var listsFactory = function($http){
     var factory = {};
 
-    factory.getPost = function(){
+    factory.getLists = function(){
       return $http.get('/lists');
     };
 

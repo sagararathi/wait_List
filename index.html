@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app='waitList'>
 <head>
   <meta charset="UTF-8">
   <title>Wait List</title>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
+  <div class="container">
+      <div ng-view></div>
+  </div>
 <!-- Angular Framework's -->
 <script type="text/javascript" src="js/angular.min.js"></script>
 <script type="text/javascript" src="js/angular-route.js"></script>
